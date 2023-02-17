@@ -143,4 +143,31 @@ a.all {
     padding: 15px;
     background: #eee;
 }
+.cafe_logo {
+    padding: 20px 0 0;
+}
+.menu li {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.menu li:first-child {
+    padding-left: 40px;
+}
+.menu li a.r {
+    color: #ff5656;
+}
+.menu li a.line::before {
+    content: "";
+    border-left: #2d2d2d;
+}
+.menu li a.w {
+    font-weight: 500;
+}
+.menu li a:hover {
+    color: #ff5656;
+    font-weight: bold;
+}
+
+
 /* ########## SECTION1 ########## */
